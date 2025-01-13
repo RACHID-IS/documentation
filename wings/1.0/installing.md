@@ -172,6 +172,7 @@ sudo systemctl enable --now wings
 
 Allocation is a combination of IP and Port that you can assign to a server. Each created server must have at least one allocation. The allocation would be the IP address of your network interface. In some cases, such as when behind NAT, it would be the internal IP. To create new allocations go to Nodes > your node > Allocation.
 
-![example image of node allocations](../../.vuepress/public/node_allocations.png)
+![example image of node allocations](../../.vuep![Screenshot_20250112_001954_YouTube](https://github.com/user-attachments/assets/50c5162f-364a-45c1-880e-fc868d575327)
+ress/public/node_allocations.png)
 
 Type `hostname -I | awk '{print $1}'` to find the IP to be used for the allocation. Alternatively, you can type `ip addr | grep "inet "` to see all your available interfaces and IP addresses. Do not use 127.0.0.1 for allocations.
